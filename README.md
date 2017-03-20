@@ -285,7 +285,7 @@
 }</pre></p>
 <p style="font-size:14px; color:rgb(51,51,51)"><span style="font-family:Microsoft YaHei,Arial; color:#333333"><span style="font-size:14px; line-height:20px"><strong><br>
 </strong></span></span></p>
-<p><a target="_blank" href="http://download.csdn.net/detail/zhh_csdn_ard/9781544"><span style="font-size:18px; color:#ff0000">源码下载...</span></a><br>
+<p><a target="_blank" href="https://github.com/seastoneard/Demo"><span style="font-size:18px; color:#ff0000">源码下载...</span></a><br>
 </p>
 <br>
 <br>
