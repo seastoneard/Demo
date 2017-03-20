@@ -58,15 +58,15 @@
 
     public void forceCheckUpdateInfo() {//强制更新一般不用
         versionCode = getVerCode(context);//等于19
-        info = new AppUpdateInfo();
-        info.setUrl(&quot;http://60.210.21.89/appdl.hicloud.com/dl/appdl/application/apk/dd/ddeabc7e64d64e4287340ffb89c592a8/com.hellotext.1309171635.apk?sign=baidu@baidu&amp;wshc_tag=0&amp;wsts_tag=58c7bde2&amp;wsid_tag=7c5a47c8&amp;wsiphost=ipdbm&quot;);
-        info.setVercode(2);//每次更新都靠它
-        info.setVername(&quot;2.0&quot;);//版本名字
-        info.setApkname(&quot;com.hellotext.1309171635.apk&quot;);
-        info.setAppname(&quot;Hello&quot;);
-        info.setForceUpp(&quot;yes&quot;);
-        info.setUppcontent(&quot;1. Hello啊哟更新了\n2. 英文的,界面很好看.\n3. 界面效果优化&quot;);//更新内容
-        updateApp();
+       info = new AppUpdateInfo();  
+        info.setUrl("http://60.210.21.89/appdl.hicloud.com/dl/appdl/application/apk/dd/ddeabc7e64d64e4287340ffb89c592a8/com.hellotext.1309171635.apk?sign=baidu@baidu&wshc_tag=0&wsts_tag=58c7bde2&wsid_tag=7c5a47c8&wsiphost=ipdbm");  
+        info.setVercode(2);//每次更新都靠它  
+        info.setVername("2.0");//版本名字  
+        info.setApkname("com.hellotext.1309171635.apk");  
+        info.setAppname("Hello");  
+        info.setForceUpp("yes");  
+        info.setUppcontent("1. Hello啊哟更新了\n2. 英文的,界面很好看.\n3. 界面效果优化");//更新内容  
+        updateApp();  
     }
 
     /**
@@ -76,14 +76,14 @@
         //网络加载获取app新版版本信息
         //这里不做请求直接赋值
         info = new AppUpdateInfo();
-        info.setUrl(&quot;http://60.210.21.89/appdl.hicloud.com/dl/appdl/application/apk/dd/ddeabc7e64d64e4287340ffb89c592a8/com.hellotext.1309171635.apk?sign=baidu@baidu&amp;wshc_tag=0&amp;wsts_tag=58c7bde2&amp;wsid_tag=7c5a47c8&amp;wsiphost=ipdbm&quot;);
-        info.setVercode(2);//每次更新都靠它
-        info.setVername(&quot;2.0&quot;);//版本名字
-        info.setApkname(&quot;com.hellotext.1309171635.apk&quot;);
-        info.setAppname(&quot;Hello&quot;);
-        info.setForceUpp(&quot;no&quot;);
-        info.setUppcontent(&quot;1. Hello啊哟更新了\n2. 英文的,界面很好看.\n3. 界面效果优化&quot;);//更新内容
-        updateApp();
+          info.setUrl("http://60.210.21.89/appdl.hicloud.com/dl/appdl/application/apk/dd/ddeabc7e64d64e4287340ffb89c592a8/com.hellotext.1309171635.apk?sign=baidu@baidu&wshc_tag=0&wsts_tag=58c7bde2&wsid_tag=7c5a47c8&wsiphost=ipdbm");  
+        info.setVercode(2);//每次更新都靠它  
+        info.setVername("2.0");//版本名字  
+        info.setApkname("com.hellotext.1309171635.apk");  
+        info.setAppname("Hello");  
+        info.setForceUpp("no");  
+        info.setUppcontent("1. Hello啊哟更新了\n2. 英文的,界面很好看.\n3. 界面效果优化");//更新内容  
+        updateApp();  
     }
 
     private void updateApp() {
